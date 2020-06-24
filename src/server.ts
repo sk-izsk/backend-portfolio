@@ -15,21 +15,21 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use(express.json());
 
-// const allowedOrigins: string[] = ['http://localhost:3000', 'http://izsk.netlify.app'];
-// app.use(
-//   cors({
-//     origin: (origin: string | undefined, callback: (err: Error | null, allow?: boolean | undefined) => void) => {
-//       if (!origin) return callback(null, true);
-//       if (allowedOrigins.indexOf(origin) === -1) {
-//         const msg: string = 'The CORS policy for this site does not allow access from the specified Origin.';
-//         return callback(new Error(msg), false);
-//       }
-//       return callback(null, true);
-//     },
-//   }),
-// );
+const allowedOrigins: string[] = ['http://localhost:3000', 'http://izsk.netlify.app'];
+app.use(
+  cors({
+    origin: (origin: string | undefined, callback: (err: Error | null, allow?: boolean | undefined) => void) => {
+      if (!origin) return callback(null, true);
+      if (allowedOrigins.indexOf(origin) === -1) {
+        const msg: string = 'The CORS policy for this site does not allow access from the specified Origin.';
+        return callback(new Error(msg), false);
+      }
+      return callback(null, true);
+    },
+  }),
+);
 
-app.use(cors());
+// app.use(cors());
 
 app.post('/email', async (req: Request<any, any, InputValues, any>, res: Response<any>) => {
   const validatedData: Shape<
