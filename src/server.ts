@@ -29,8 +29,6 @@ app.use(
   }),
 );
 
-// app.use(cors());
-
 app.post('/email', async (req: Request<any, any, InputValues, any>, res: Response<any>) => {
   const validatedData: Shape<
     InputValues | undefined,
