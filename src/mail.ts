@@ -19,6 +19,8 @@ const auth: {
 
 const transporter: Mail = nodemailer.createTransport(mailGun(auth));
 
+console.log('this is token', process.env);
+
 const sendMail: (email: string, subject: string, text: string) => void = (
   email: string,
   subject: string,
