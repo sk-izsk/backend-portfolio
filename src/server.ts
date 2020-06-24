@@ -47,10 +47,6 @@ app.post('/email', async (req: Request<any, any, InputValues, any>, res: Respons
   }
 });
 
-if (process.env.NODE_ENV !== 'production') {
-  app.use(express.static('/build/server.js'));
-}
-
 app.listen(PORT, function () {
   console.log('this is ', process.env.NODE_ENV);
   console.log(`App is listening on port ${PORT}!`);

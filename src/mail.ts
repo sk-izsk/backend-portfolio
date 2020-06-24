@@ -1,6 +1,9 @@
+import dotenv from 'dotenv';
 import nodemailer from 'nodemailer';
 import mailGun from 'nodemailer-mailgun-transport';
 import Mail from 'nodemailer/lib/mailer';
+
+dotenv.config();
 
 const auth: {
   auth: {
@@ -9,8 +12,8 @@ const auth: {
   };
 } = {
   auth: {
-    api_key: 'd0add712ecaf55d45137ea157c48c065-468bde97-3d31dc22',
-    domain: 'sandboxe368944fa0ee4c5f9b83dc4f8f46f691.mailgun.org',
+    api_key: process.env.API_TOKEN as string,
+    domain: process.env.DOMAIN as string,
   },
 };
 
