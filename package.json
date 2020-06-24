@@ -10,8 +10,7 @@
     "prettier:check": "prettier --config .prettierrc.js --check \"*/**/*.{ts,tsx,js,jsx,json,sass,scss,css,html,md}\"",
     "prettier:fix": "yarn prettier:check --write",
     "prettier:fix-all": "yarn prettier:check --write",
-    "precommit:check": "yarn prettier:fix-all",
-    "heroku-postbuild":"yarn install && yarn start:production"
+    "precommit:check": "yarn prettier:fix-all"
   },
   "husky": {
     "hooks": {
