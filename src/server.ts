@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use(express.json());
 
-const allowedOrigins: string[] = ['http://localhost:3000', 'http://izsk.netlify.app'];
+const allowedOrigins: string[] = ['http://localhost:3000', 'https://izsk.netlify.app'];
 app.use(
   cors({
     origin: (origin: string | undefined, callback: (err: Error | null, allow?: boolean | undefined) => void) => {
