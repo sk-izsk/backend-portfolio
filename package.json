@@ -6,12 +6,12 @@
   "scripts": {
     "tsc": "tsc",
     "start:dev": "NODE_ENV=development nodemon",
-    "start:production":"NODE_ENV=production && yarn tsc",
+    "start:production": "NODE_ENV=production && yarn tsc",
     "prettier:check": "prettier --config .prettierrc.js --check \"*/**/*.{ts,tsx,js,jsx,json,sass,scss,css,html,md}\"",
     "prettier:fix": "yarn prettier:check --write",
     "prettier:fix-all": "yarn prettier:check --write",
     "precommit:check": "yarn prettier:fix-all",
-    "heroku-postbuild":"NODE_ENV=production && yarn install && yarn tsc"
+    "heroku-postbuild": "NODE_ENV=production && yarn install && yarn tsc"
   },
   "husky": {
     "hooks": {
@@ -31,6 +31,7 @@
     "nodemailer": "^6.4.10",
     "nodemailer-mailgun-transport": "^2.0.0",
     "nodemon": "^2.0.4",
+    "pm2": "^4.4.0",
     "prettier": "^2.0.5",
     "ts-node": "^8.10.2",
     "typescript": "^3.9.5",
