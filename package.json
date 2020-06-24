@@ -1,16 +1,17 @@
 {
   "name": "backend-portfolio",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/server.ts",
   "license": "MIT",
   "scripts": {
-    "tsc": "tsc && nodemon build/server.js",
+    "tsc": "tsc",
     "start:dev": "NODE_ENV=development nodemon",
     "start:production":"NODE_ENV=production && yarn tsc",
     "prettier:check": "prettier --config .prettierrc.js --check \"*/**/*.{ts,tsx,js,jsx,json,sass,scss,css,html,md}\"",
     "prettier:fix": "yarn prettier:check --write",
     "prettier:fix-all": "yarn prettier:check --write",
-    "precommit:check": "yarn prettier:fix-all"
+    "precommit:check": "yarn prettier:fix-all",
+    "heroku-postbuild":"NODE_ENV=production && yarn install && yarn tsc"
   },
   "husky": {
     "hooks": {
