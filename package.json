@@ -4,13 +4,14 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "tsc": "tsc",
-    "start:dev": "nodemon",
-    "start": "npm run build && node build/index.js",
+    "tsc": "tsc && nodemon build/server.js",
+    "start:dev": "NODE_ENV=development nodemon",
+    "start:production":"NODE_ENV=production && yarn tsc",
     "prettier:check": "prettier --config .prettierrc.js --check \"*/**/*.{ts,tsx,js,jsx,json,sass,scss,css,html,md}\"",
     "prettier:fix": "yarn prettier:check --write",
     "prettier:fix-all": "yarn prettier:check --write",
-    "precommit:check": "yarn prettier:fix-all"
+    "precommit:check": "yarn prettier:fix-all",
+    "heroku-postbuild":"yarn install && yarn start:production"
   },
   "husky": {
     "hooks": {

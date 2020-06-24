@@ -42,13 +42,16 @@ app.post('/email', async (req: Request<any, any, InputValues, any>, res: Respons
   if (validatedData !== undefined) {
     const { email, message, name, subject } = validatedData;
     const modifiedMessage: string = `${name}: ${message}`;
-    console.log('this is modified message', modifiedMessage);
     sendMail(email, subject, modifiedMessage);
-    console.log('this is data from frontend', validatedData);
     res.json({ message: 'message received' });
   }
 });
 
+if (process.env.NODE_ENV === 'production') {
+  app.use(express.static('/build/server.js'));
+}
+
 app.listen(PORT, function () {
+  console.log('this is ', process.env.NODE_ENV);
   console.log(`App is listening on port ${PORT}!`);
 });
