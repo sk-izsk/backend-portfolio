@@ -19,7 +19,17 @@ const auth: {
 
 const transporter: Mail = nodemailer.createTransport(mailGun(auth));
 
-console.log('this is token', process.env);
+const detailsOfProcess: {
+  environment: string | undefined;
+  apiToken: string | undefined;
+  apiDomain: string | undefined;
+} = {
+  environment: process.env.NODE_ENV,
+  apiToken: process.env.API_TOKEN,
+  apiDomain: process.env.DOMAIN,
+};
+
+console.log(detailsOfProcess);
 
 const sendMail: (email: string, subject: string, text: string) => void = (
   email: string,
