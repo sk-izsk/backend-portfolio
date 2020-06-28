@@ -1,14 +1,15 @@
 import cors from 'cors';
 import express, { Request, Response } from 'express';
 import { Shape } from 'yup';
+import { informations } from './Informations';
 import { sendMail } from './mail';
 import { formSchema, InputValues } from './validation';
 
 const PORT: number | string = process.env.PORT || 5000;
 
 const app: express.Application = express();
-app.get('/', function (req, res) {
-  res.send('Hello World!');
+app.get('/', function (_, res) {
+  res.send('Hello world');
 });
 
 app.use(express.urlencoded({ extended: false }));
@@ -45,6 +46,10 @@ app.post('/email', async (req: Request<any, any, InputValues, any>, res: Respons
     sendMail(email, subject, modifiedMessage);
     res.json({ message: 'message received' });
   }
+});
+
+app.get('/informations', (_, res: Response) => {
+  res.send(JSON.stringify(informations));
 });
 
 app.listen(PORT, function () {
