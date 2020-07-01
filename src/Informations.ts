@@ -68,7 +68,14 @@ const informations: Informations = {
       startYear: '2020',
       endYear: '2020',
       details:
-        'I made this portfolio by using React, React Hooks, Typescript, Yup for validation,React-MapGl, axios for api call. Jest for testing and some animation tools. I use JSS with fully controlled style. For Back end I use NodeJS, with express, typescript, cors, yup for validation, nodemailer with mailgun. I try to make it with proper optimization by using React features',
+        'I create this portfolio by using React, React Hooks, Typescript, Yup for validation,React-MapGl, axios for api call. Jest for testing and some animation tools. I use JSS with fully controlled style. For Back end I use NodeJS, with express, typescript, cors, yup for validation, nodemailer with mailgun. I try to make it with proper optimization by using React features',
+    },
+    {
+      nameOfOrganization: 'Vue Portfolio — Personal',
+      startYear: '2020',
+      endYear: '2020',
+      details:
+        'I create a  portfolio by using Vue, Vuex state management, Javascript, Yup for validation, axios for api call. I use CSS for styling for most of the part. Also use Vue-bootstrap for some animation and little styling. For Back end I use NodeJS, with express, typescript, cors, yup for validation, nodemailer with mailgun. I try to make it with proper optimization by using React features',
     },
     {
       nameOfOrganization: 'CoronaVirus-tracker — Personal',
@@ -157,7 +164,7 @@ const informations: Informations = {
     { name: 'React', progress: 80, backgroundColor: '#FFD15C' },
     { name: 'Typescript', progress: 75, backgroundColor: 'rgb(108, 108, 229)' },
     { name: 'Redux', progress: 75, backgroundColor: '#FF4C60' },
-    { name: 'Vue', progress: 65, backgroundColor: '#41B883' },
+    { name: 'Vue', progress: 70, backgroundColor: '#41B883' },
     { name: 'Photography', progress: 70, backgroundColor: '#8B88B1' },
   ],
 };
