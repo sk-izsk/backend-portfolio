@@ -68,7 +68,7 @@ const informations: Informations = {
       startYear: '2020',
       endYear: '2020',
       details:
-        'I create a portfolio by using React, React Hooks, Typescript, Yup for validation,React-MapGl, axios for api call. Jest for testing and some animation tools. I use JSS with fully controlled style. For Back end I use NodeJS, with express, typescript, cors, yup for validation, nodemailer with mailgun.',
+        'I create a portfolio by using React, React Hooks, Typescript, Yup for validation,React-MapGl, axios for api call. Jest for testing and some animation tools. I use JSS with fully controlled style. Also use React-bootstrap for some animation and elements. For Back end I use NodeJS, with express, typescript, cors, yup for validation, nodemailer with mailgun.',
     },
     {
       nameOfOrganization: 'Vue Portfolio — Personal',
