@@ -1,3 +1,8 @@
+interface Offerings {
+  name: string;
+  offerings: string[];
+}
+
 export interface Informations {
   avatar: {
     avatarOne: string;
@@ -23,6 +28,10 @@ export interface Informations {
     progress: number;
     backgroundColor: any;
   }[];
+  myOffers: {
+    frontEnd: Offerings;
+    backEnd: Offerings;
+  };
 }
 
 const informations: Informations = {
@@ -161,12 +170,41 @@ const informations: Informations = {
     },
   ],
   skillsInformation: [
-    { name: 'React', progress: 80, backgroundColor: '#FFD15C' },
-    { name: 'Typescript', progress: 75, backgroundColor: 'rgb(108, 108, 229)' },
-    { name: 'Redux', progress: 75, backgroundColor: '#FF4C60' },
+    { name: 'React', progress: 85, backgroundColor: '#FFD15C' },
+    { name: 'React Native', progress: 85, backgroundColor: '#61DBFB' },
+    { name: 'Javascript', progress: 85, backgroundColor: '#f0db4f' },
+    { name: 'Typescript', progress: 80, backgroundColor: '#007acc' },
+    { name: 'Redux', progress: 75, backgroundColor: '#764abc' },
     { name: 'Vue', progress: 70, backgroundColor: '#41B883' },
+    { name: 'NodeJs', progress: 60, backgroundColor: '#3C873A' },
+    { name: 'Express', progress: 60, backgroundColor: '#cbcbcb' },
+    { name: 'MongoDB', progress: 50, backgroundColor: '#3fa037' },
+    { name: 'Jest', progress: 50, backgroundColor: '#BF0A30' },
     { name: 'Photography', progress: 70, backgroundColor: '#8B88B1' },
   ],
+  myOffers: {
+    frontEnd: {
+      name: 'Frontend',
+      offerings: [
+        'I can write a quality code rather than hacky code.',
+        'By saying quality code I mean a robust, reusable easy to understand.',
+        "I prefer functional coding and that's.",
+        'I used to work in small team.',
+        'Which means I can learn new technologies very quickly if needed.',
+      ],
+    },
+    backEnd: {
+      name: 'Backend',
+      offerings: [
+        'I learned about backend during my coding bootcamp.',
+        'I can write basic level of backend in NodeJs with ExpressJs with typescript.',
+        'I can work with MongoDB, CORS as well in Backend.',
+        'In backend also I prefer to code in a such manner so that in long run it maintains robustness, reusability.',
+        'I entirely build this backend where all of my portfolios are getting data and also build the functionality of sending email.',
+        'Moreover I am ready to learn new backend technologies if its required to the team.',
+      ],
+    },
+  },
 };
 
 export { informations };
