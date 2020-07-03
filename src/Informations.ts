@@ -77,14 +77,21 @@ const informations: Informations = {
       startYear: '2020',
       endYear: '2020',
       details:
-        'I create a portfolio by using React, React Hooks, Typescript, Yup for validation,React-MapGl, axios for api call. Jest for testing and some animation tools. I use JSS with fully controlled style. Also use React-bootstrap for some animation and elements. For Back end I use NodeJS, with express, typescript, cors, yup for validation, nodemailer with mailgun.',
+        'I create a portfolio by using React, React Hooks, Typescript, Yup for validation,React-MapGl, axios for api call. Jest for testing and some animation tools. I use JSS with fully controlled style. Also use React-bootstrap for some animation and elements.',
     },
     {
       nameOfOrganization: 'Vue Portfolio — Personal',
       startYear: '2020',
       endYear: '2020',
       details:
-        'I create a  portfolio by using Vue, Vuex state management, Javascript, Yup for validation, axios for api call. I use CSS for styling for most of the part. Also use Vue-bootstrap for some animation and little styling. For Back end I use NodeJS, with express, typescript, cors, yup for validation, nodemailer with mailgun.',
+        'I create a  portfolio by using Vue, Vuex state management, Javascript, Yup for validation, axios for api call. I use CSS for styling for most of the part. Also use Vue-bootstrap for some animation and little styling.',
+    },
+    {
+      nameOfOrganization: 'Portfolio-Backend— Personal',
+      startYear: '2020',
+      endYear: '2020',
+      details:
+        ' For Back end I use NodeJS, with express, typescript, cors, yup for validation, nodemailer with mailgun. For Database I use MongoDb.',
     },
     {
       nameOfOrganization: 'CoronaVirus-tracker — Personal',
@@ -175,11 +182,11 @@ const informations: Informations = {
     { name: 'Javascript', progress: 85, backgroundColor: '#f0db4f' },
     { name: 'Typescript', progress: 80, backgroundColor: '#007acc' },
     { name: 'Redux', progress: 75, backgroundColor: '#764abc' },
-    { name: 'Vue', progress: 70, backgroundColor: '#41B883' },
-    { name: 'NodeJs', progress: 60, backgroundColor: '#3C873A' },
-    { name: 'Express', progress: 60, backgroundColor: '#cbcbcb' },
-    { name: 'MongoDB', progress: 50, backgroundColor: '#3fa037' },
-    { name: 'Jest', progress: 50, backgroundColor: '#BF0A30' },
+    { name: 'Vue', progress: 75, backgroundColor: '#41B883' },
+    { name: 'NodeJs', progress: 70, backgroundColor: '#3C873A' },
+    { name: 'Express', progress: 70, backgroundColor: '#cbcbcb' },
+    { name: 'MongoDB', progress: 70, backgroundColor: '#3fa037' },
+    { name: 'Jest', progress: 60, backgroundColor: '#BF0A30' },
     { name: 'Photography', progress: 70, backgroundColor: '#8B88B1' },
   ],
   myOffers: {
@@ -197,10 +204,10 @@ const informations: Informations = {
       name: 'Backend',
       offerings: [
         'I learned about backend during my coding bootcamp.',
-        'I can write basic level of backend in NodeJs with ExpressJs with typescript.',
+        'I can write basic to intermediate level of backend in NodeJs with ExpressJs with typescript.',
         'I can work with MongoDB, CORS as well in Backend.',
         'In backend also I prefer to code in a such manner so that in long run it maintains robustness, reusability.',
-        'I entirely build this backend where all of my portfolios are getting data and also build the functionality of sending email.',
+        'I entirely build this backend where all of my portfolios are getting data and also build the functionality of sending email. I also integrate the data for portfolio in MongoDB',
         'Moreover I am ready to learn new backend technologies if its required to the team.',
       ],
     },
