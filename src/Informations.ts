@@ -26,7 +26,7 @@ export interface Informations {
   skillsInformation: {
     name: string;
     progress: number;
-    backgroundColor: any;
+    backgroundColor: string;
   }[];
   myOffers: {
     frontEnd: Offerings;

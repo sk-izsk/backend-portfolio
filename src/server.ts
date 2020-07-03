@@ -1,16 +1,14 @@
 import cors from 'cors';
-import express, { Request, Response } from 'express';
-import { Shape } from 'yup';
-import { informations } from './Informations';
-import { sendMail } from './mail';
-import { formSchema, InputValues } from './validation';
+import dotenv from 'dotenv';
+import express from 'express';
+import mongoose from 'mongoose';
+import { getRouter, postRouter, updateRouter } from './routes';
+
+dotenv.config();
 
 const PORT: number | string = process.env.PORT || 5000;
 
 const app: express.Application = express();
-app.get('/', function (_, res) {
-  res.send('Hello world');
-});
 
 app.use(express.urlencoded({ extended: false }));
 
@@ -35,27 +33,20 @@ app.use(
   }),
 );
 
-app.post('/email', async (req: Request<any, any, InputValues, any>, res: Response<any>) => {
-  const validatedData: Shape<
-    InputValues | undefined,
-    {
-      name: string;
-      email: string;
-      subject: string;
-      message: string;
-    }
-  > = await formSchema.validate(req.body);
-  if (validatedData !== undefined) {
-    const { email, message, name, subject } = validatedData;
-    const modifiedMessage: string = `${name}: ${message}`;
-    sendMail(email, subject, modifiedMessage);
-    res.json({ message: 'message received' });
-  }
-});
+app.use('/', getRouter, postRouter, updateRouter);
 
-app.get('/informations', (_, res: Response) => {
-  res.send(JSON.stringify(informations));
-});
+mongoose.connect(
+  process.env.MONGO_DB_TOKEN as string,
+  {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  },
+
+  (err) => {
+    console.log('connected to db');
+    console.log('this is mongo error', err);
+  },
+);
 
 app.listen(PORT, function () {
   console.log(`App is listening on port ${PORT}!`);

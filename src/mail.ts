@@ -23,10 +23,12 @@ const detailsOfProcess: {
   environment: string | undefined;
   apiToken: string | undefined;
   apiDomain: string | undefined;
+  mongoDbToken: string | undefined;
 } = {
   environment: process.env.NODE_ENV,
   apiToken: process.env.API_TOKEN,
   apiDomain: process.env.DOMAIN,
+  mongoDbToken: process.env.MONGO_DB_TOKEN,
 };
 
 console.log(detailsOfProcess);
