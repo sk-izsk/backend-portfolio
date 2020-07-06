@@ -66,9 +66,9 @@ const informations: Informations = {
   ],
   experienceInformations: [
     {
-      nameOfOrganization: 'Guiker Inc, Montreal  — Junior Software Developer',
+      nameOfOrganization: 'Guiker Inc, Montreal  —  Software Developer',
       startYear: 'July, 2019',
-      endYear: 'Present',
+      endYear: 'June, 2020',
       details:
         'My job is to provide assistance to my team where we work on Mobile applications for iOS and android. Also rebuilding the existing product(www.guiker.com) and its functionality The tools we are using Expo, Typescript, Jest, React Native, React, Material UI, JSS, Axios Etc.',
     },
@@ -77,7 +77,7 @@ const informations: Informations = {
       startYear: '2020',
       endYear: '2020',
       details:
-        'I create a portfolio by using React, React Hooks, Typescript, Yup for validation,React-MapGl, axios for api call. Jest for testing and some animation tools. I use JSS with fully controlled style. Also use React-bootstrap for some animation and elements.',
+        'I create a portfolio by using React, React Hooks, Typescript, Yup for validation,React-MapGl, Axios and React-Query for api call. Jest for testing and some animation tools. I use JSS with fully controlled style. Also use React-bootstrap for some animation and elements.',
     },
     {
       nameOfOrganization: 'Vue Portfolio — Personal',
@@ -87,7 +87,7 @@ const informations: Informations = {
         'I create a  portfolio by using Vue, Vuex state management, Javascript, Yup for validation, axios for api call. I use CSS for styling for most of the part. Also use Vue-bootstrap for some animation and little styling.',
     },
     {
-      nameOfOrganization: 'Portfolio-Backend— Personal',
+      nameOfOrganization: 'Portfolio-Backend — Personal',
       startYear: '2020',
       endYear: '2020',
       details:
