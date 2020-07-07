@@ -28,6 +28,7 @@ const InformationPostSchema: mongoose.Schema<Informations> = new mongoose.Schema
       name: String,
       progress: Number,
       backgroundColor: String,
+      technology: String,
     },
   ],
   myOffers: {

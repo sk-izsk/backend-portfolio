@@ -27,6 +27,7 @@ export interface Informations {
     name: string;
     progress: number;
     backgroundColor: string;
+    technology?: 'BACKEND' | 'FRONTEND' | 'MISC';
   }[];
   myOffers: {
     frontEnd: Offerings;
@@ -177,17 +178,19 @@ const informations: Informations = {
     },
   ],
   skillsInformation: [
-    { name: 'React', progress: 85, backgroundColor: '#FFD15C' },
-    { name: 'React Native', progress: 85, backgroundColor: '#61DBFB' },
-    { name: 'Javascript', progress: 85, backgroundColor: '#f0db4f' },
-    { name: 'Typescript', progress: 80, backgroundColor: '#007acc' },
-    { name: 'Redux', progress: 75, backgroundColor: '#764abc' },
-    { name: 'Vue', progress: 75, backgroundColor: '#41B883' },
-    { name: 'NodeJs', progress: 70, backgroundColor: '#3C873A' },
-    { name: 'Express', progress: 70, backgroundColor: '#cbcbcb' },
-    { name: 'MongoDB', progress: 70, backgroundColor: '#3fa037' },
-    { name: 'Jest', progress: 60, backgroundColor: '#BF0A30' },
-    { name: 'Photography', progress: 70, backgroundColor: '#8B88B1' },
+    { name: 'React', progress: 85, backgroundColor: '#FFD15C', technology: 'FRONTEND' },
+    { name: 'React Native', progress: 85, backgroundColor: '#61DBFB', technology: 'FRONTEND' },
+    { name: 'Javascript', progress: 85, backgroundColor: '#f0db4f', technology: 'MISC' },
+    { name: 'Typescript', progress: 80, backgroundColor: '#007acc', technology: 'MISC' },
+    { name: 'Redux', progress: 75, backgroundColor: '#764abc', technology: 'FRONTEND' },
+    { name: 'Vue', progress: 75, backgroundColor: '#41B883', technology: 'FRONTEND' },
+    { name: 'NodeJs', progress: 70, backgroundColor: '#3C873A', technology: 'BACKEND' },
+    { name: 'Express', progress: 70, backgroundColor: '#cbcbcb', technology: 'BACKEND' },
+    { name: 'MongoDB', progress: 70, backgroundColor: '#3fa037', technology: 'BACKEND' },
+    { name: 'RestFull API', progress: 70, backgroundColor: '#FF5733', technology: 'BACKEND' },
+    { name: 'GraphQL', progress: 70, backgroundColor: '#e535ab', technology: 'BACKEND' },
+    { name: 'Jest', progress: 60, backgroundColor: '#BF0A30', technology: 'MISC' },
+    { name: 'Photography', progress: 70, backgroundColor: '#8B88B1', technology: 'MISC' },
   ],
   myOffers: {
     frontEnd: {
@@ -205,7 +208,7 @@ const informations: Informations = {
       offerings: [
         'I learned about backend during my coding bootcamp.',
         'I can write basic to intermediate level of backend in NodeJs with ExpressJs with typescript.',
-        'I can work with MongoDB, CORS as well in Backend.',
+        'I can work with MongoDB, CORS, RestFull API and GraphQL as well in Backend.',
         'In backend also I prefer to code in a such manner so that in long run it maintains robustness, reusability.',
         'I entirely build this backend where all of my portfolios are getting data and also build the functionality of sending email. I also integrate the data for portfolio in MongoDB',
         'Moreover I am ready to learn new backend technologies if its required to the team.',
