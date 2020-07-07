@@ -188,7 +188,7 @@ const informations: Informations = {
     { name: 'Express', progress: 70, backgroundColor: '#cbcbcb', technology: 'BACKEND' },
     { name: 'MongoDB', progress: 70, backgroundColor: '#3fa037', technology: 'BACKEND' },
     { name: 'RestFull API', progress: 70, backgroundColor: '#FF5733', technology: 'BACKEND' },
-    { name: 'GraphQL', progress: 70, backgroundColor: '#e535ab', technology: 'BACKEND' },
+    { name: 'GraphQL', progress: 60, backgroundColor: '#e535ab', technology: 'BACKEND' },
     { name: 'Jest', progress: 60, backgroundColor: '#BF0A30', technology: 'MISC' },
     { name: 'Photography', progress: 70, backgroundColor: '#8B88B1', technology: 'MISC' },
   ],
