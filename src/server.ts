@@ -1,7 +1,9 @@
 import cors from 'cors';
 import dotenv from 'dotenv';
 import express from 'express';
+import { graphqlHTTP } from 'express-graphql';
 import mongoose from 'mongoose';
+import { graphqlSchema } from './graphql';
 import { getRouter, postRouter, updateRouter } from './routes';
 
 dotenv.config();
@@ -16,6 +18,7 @@ app.use(express.json());
 
 const allowedOrigins: string[] = [
   'http://localhost:3000',
+  'http://localhost:5000',
   'https://izsk.netlify.app',
   'http://localhost:8080',
   'https://izsk-vue.netlify.app',
@@ -46,6 +49,14 @@ mongoose.connect(
     console.log('connected to db');
     console.log('this is mongo error', err);
   },
+);
+
+app.use(
+  '/graphql',
+  graphqlHTTP({
+    schema: graphqlSchema,
+    graphiql: true,
+  }),
 );
 
 app.listen(PORT, function () {
