@@ -2,9 +2,12 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import express from 'express';
 import { graphqlHTTP } from 'express-graphql';
+import http from 'http';
 import mongoose from 'mongoose';
+import socketIo from 'socket.io';
 import { graphqlSchema } from './graphql';
 import { getRouter, postRouter, updateRouter } from './routes';
+import { callMongoDB } from './routes/get';
 
 dotenv.config();
 
@@ -59,6 +62,14 @@ app.use(
   }),
 );
 
-app.listen(PORT, function () {
+const server: http.Server = http.createServer(app);
+
+const io: socketIo.Server = socketIo(server);
+
+io.on('connect', async (socket: socketIo.Socket) => {
+  socket.emit('getInformations', { informations: await callMongoDB() });
+});
+
+server.listen(PORT, function () {
   console.log(`App is listening on port ${PORT}!`);
 });
