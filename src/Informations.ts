@@ -198,7 +198,7 @@ const informations: Informations = {
       offerings: [
         'I can write a quality code rather than hacky code.',
         'By saying quality code I mean a robust, reusable easy to understand.',
-        "I prefer functional coding and that's.",
+        'I prefer component based approach in frontend.',
         'I used to work in small team.',
         'Which means I can learn new technologies very quickly if needed.',
       ],
