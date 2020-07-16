@@ -191,6 +191,7 @@ const informations: Informations = {
     { name: 'GraphQL', progress: 60, backgroundColor: '#e535ab', technology: 'BACKEND' },
     { name: 'Jest', progress: 60, backgroundColor: '#BF0A30', technology: 'MISC' },
     { name: 'Photography', progress: 70, backgroundColor: '#8B88B1', technology: 'MISC' },
+    { name: 'SocketIo', progress: 65, backgroundColor: '#0D0D0D', technology: 'MISC' },
   ],
   myOffers: {
     frontEnd: {
