@@ -30,7 +30,9 @@
     "nodemailer-mailgun-transport": "^2.0.0",
     "nodemon": "^2.0.4",
     "socket.io": "^2.3.0",
-    "yup": "^0.29.1"
+    "yup": "^0.29.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
   },
   "devDependencies": {
     "@types/cors": "^2.8.6",
@@ -42,8 +44,6 @@
     "@types/socket.io": "^2.1.9",
     "@types/yup": "^0.29.3",
     "husky": "^4.2.5",
-    "prettier": "^2.0.5",
-    "ts-node": "^8.10.2",
-    "typescript": "^3.9.7"
+    "prettier": "^2.0.5"
   }
 }
