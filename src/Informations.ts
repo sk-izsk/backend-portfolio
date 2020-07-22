@@ -95,6 +95,13 @@ const informations: Informations = {
         ' For Back end I use NodeJS, with express, typescript, cors, yup for validation, nodemailer with mailgun. For Database I use MongoDb.',
     },
     {
+      nameOfOrganization: 'CoronaVirus-tracker-web — Personal',
+      startYear: '2020',
+      endYear: '2020',
+      details:
+        'An application where we can track the activity of Covid-19 based on country, continent, province with several factors. Built on React,Typescript,React-redux, Axios, Redux-toolkit, Redux thunk, Material UI. For source code kindly check my github. Here is demo link for it : izsk-covid-tracker.netlify.app .',
+    },
+    {
       nameOfOrganization: 'CoronaVirus-tracker — Personal',
       startYear: '2020',
       endYear: '2020',
