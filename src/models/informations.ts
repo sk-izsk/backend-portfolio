@@ -12,6 +12,7 @@ const InformationPostSchema: mongoose.Schema<Informations> = new mongoose.Schema
       startYear: String,
       endYear: String,
       details: String,
+      link: String,
     },
   ],
   experienceInformations: [
@@ -20,6 +21,7 @@ const InformationPostSchema: mongoose.Schema<Informations> = new mongoose.Schema
       startYear: String,
       endYear: String,
       details: String,
+      link: String,
     },
   ],
   photos: [{ url: String }],

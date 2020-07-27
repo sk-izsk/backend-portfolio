@@ -13,12 +13,14 @@ export interface Informations {
     startYear: string;
     endYear: string;
     details: string;
+    link?: string;
   }[];
   experienceInformations: {
     nameOfOrganization: string;
     startYear: string;
     endYear: string;
     details: string;
+    link?: string;
   }[];
   photos: {
     url: string;
@@ -79,6 +81,7 @@ const informations: Informations = {
       endYear: '2020',
       details:
         'I create a portfolio by using React, React Hooks, Typescript, Yup for validation,React-MapGl, Axios and React-Query for api call. Jest for testing and some animation tools. I use JSS with fully controlled style. Also use React-bootstrap for some animation and elements.',
+      link: 'https://izsk.netlify.app',
     },
     {
       nameOfOrganization: 'Vue Portfolio — Personal',
@@ -86,6 +89,7 @@ const informations: Informations = {
       endYear: '2020',
       details:
         'I create a  portfolio by using Vue, Vuex state management, Javascript, Yup for validation, axios for api call. I use CSS for styling for most of the part. Also use Vue-bootstrap for some animation and little styling.',
+      link: 'https://izsk-vue.netlify.app',
     },
     {
       nameOfOrganization: 'Portfolio-Backend — Personal',
@@ -100,20 +104,23 @@ const informations: Informations = {
       endYear: '2020',
       details:
         'An application where we can track the activity of Covid-19 based on country, continent, province with several factors. Built on React,Typescript,React-redux, Axios, Redux-toolkit, Redux thunk, Material UI. For source code kindly check my github. Here is demo link for it : izsk-covid-tracker.netlify.app .',
+      link: 'https://izsk-covid-tracker.netlify.app',
     },
     {
       nameOfOrganization: 'CoronaVirus-tracker — Personal',
       startYear: '2020',
       endYear: '2020',
       details:
-        'An application where we can track the activity of Covid-19 based on country, continent, province with several factors and graphs. Built on React native,Typescript,React-native Element, Axios, Redux-toolkit. For source code kindly check my github. Here is demo link for it : youtu.be/e_fFipPN9Ic .',
+        'An application where we can track the activity of Covid-19 based on country, continent, province with several factors and graphs. Built on React native,Typescript,React-native Element, Axios, Redux-toolkit. For source code kindly check my github.',
+      link: 'https://youtu.be/e_fFipPN9Ic',
     },
     {
       nameOfOrganization: 'Meal Delivery App, Montreal — Co-member(DecodeMtl)',
       startYear: 'April, 2019',
       endYear: 'May, 2019',
       details:
-        'Marketplace where customers can order food and sellers can manage their items. Built in 10 days with a team of 4, this is a full stack application built with React, Redux, Express & MongoDB, where I tackled most of the front-end, including all the major views, animations, and state management. For source code kindly check my github. Here is demo link for it : youtu.be/CKuMCXpg-3Q . ',
+        'Marketplace where customers can order food and sellers can manage their items. Built in 10 days with a team of 4, this is a full stack application built with React, Redux, Express & MongoDB, where I tackled most of the front-end, including all the major views, animations, and state management. For source code kindly check my github.',
+      link: 'https://youtu.be/CKuMCXpg-3Q',
     },
     {
       nameOfOrganization: 'Fusion BPO Services, Montreal  — Technical support representative',
@@ -128,6 +135,7 @@ const informations: Informations = {
       endYear: 'Jan, 2016',
       details:
         'Authored a paper on an embedded hardware project, "Controlling an Embedded Robot through Image Processing based Object Tracking using MATLAB”. The publication is about a robot where users can instruct it to do commands by specific color object. The robot automatically tracks the specific object.',
+      link: 'https://ieeexplore.ieee.org/document/7726922',
     },
     {
       nameOfOrganization: 'ESL, Kolkata, India  — Trainee',
@@ -147,7 +155,7 @@ const informations: Informations = {
       nameOfOrganization: 'For Other Projects — Personal',
       startYear: 'April, 2019',
       endYear: 'Present',
-      details: 'For other projects kindly checkout my github link. http://github.com/sk-izsk ',
+      details: 'For other projects kindly checkout my github link.',
     },
   ],
   photos: [
