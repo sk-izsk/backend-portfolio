@@ -114,7 +114,7 @@ const informations: Informations = {
       link: 'https://youtu.be/BVYRaqlpKCw',
     },
     {
-      nameOfOrganization: 'Quiz application(FE)',
+      nameOfOrganization: 'Quiz application(BE)',
       startYear: '2020',
       endYear: '2020',
       details:
