@@ -179,6 +179,7 @@ const informations: Informations = {
       startYear: 'April, 2019',
       endYear: 'Present',
       details: 'For other projects kindly checkout my github link.',
+      link: 'https://github.com/sk-izsk',
     },
   ],
   photos: [
