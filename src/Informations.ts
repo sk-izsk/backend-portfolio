@@ -99,6 +99,29 @@ const informations: Informations = {
         ' For Back end I use NodeJS, with express, typescript, cors, yup for validation, nodemailer with mailgun. For Database I use MongoDb.',
     },
     {
+      nameOfOrganization: 'Rock scissors paper game',
+      startYear: '2020',
+      endYear: '2020',
+      details: 'Frontend build with React, typescript',
+      link: 'https://youtu.be/OsrPFr8Nxnw',
+    },
+    {
+      nameOfOrganization: 'Quiz application(FE)',
+      startYear: '2020',
+      endYear: '2020',
+      details:
+        'I create this quiz application frontend by using React, Redux toolkit, Redux thunk, Typescript, Material-UI, axios, React-Router dom, React spring and Yup for validation.',
+      link: 'https://youtu.be/BVYRaqlpKCw',
+    },
+    {
+      nameOfOrganization: 'Quiz application(FE)',
+      startYear: '2020',
+      endYear: '2020',
+      details:
+        ' For Back end I use NodeJS, with express, typescript, cors, yup for validation, ByCrypt JS, CryptoJS, JWT, Nodemon. For Database I use MongoDb.',
+      link: 'https://github.com/sk-izsk/izsk-quiz-be',
+    },
+    {
       nameOfOrganization: 'CoronaVirus-tracker-web — Personal',
       startYear: '2020',
       endYear: '2020',
