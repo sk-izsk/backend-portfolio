@@ -76,7 +76,7 @@ const informations: Informations = {
         'My job is to provide assistance to my team where we work on Mobile applications for iOS and android. Also rebuilding the existing product(www.guiker.com) and its functionality The tools we are using Expo, Typescript, Jest, React Native, React, Material UI, JSS, Axios Etc.',
     },
     {
-      nameOfOrganization: 'Facebook Clone',
+      nameOfOrganization: 'Facebook Clone (Desktop View)',
       startYear: '2020',
       endYear: '2020',
       details:
