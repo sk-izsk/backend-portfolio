@@ -76,6 +76,14 @@ const informations: Informations = {
         'My job is to provide assistance to my team where we work on Mobile applications for iOS and android. Also rebuilding the existing product(www.guiker.com) and its functionality The tools we are using Expo, Typescript, Jest, React Native, React, Material UI, JSS, Axios Etc.',
     },
     {
+      nameOfOrganization: 'Facebook Clone',
+      startYear: '2020',
+      endYear: '2020',
+      details:
+        'I create this facebook clone by using React, React Hooks, Typescript, React Context for state management. Jest for testing . I use Material UI for the styling but use custom JSS for it. For Backend I use firebase and its google authentication functionality',
+      link: 'https://izsk-fb.netlify.app',
+    },
+    {
       nameOfOrganization: 'React Portfolio — Personal',
       startYear: '2020',
       endYear: '2020',
