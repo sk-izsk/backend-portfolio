@@ -14,6 +14,7 @@ export interface Informations {
     endYear: string;
     details: string;
     link?: string;
+    demoLink?: string;
   }[];
   experienceInformations: {
     nameOfOrganization: string;
@@ -21,6 +22,7 @@ export interface Informations {
     endYear: string;
     details: string;
     link?: string;
+    demoLink?: string;
   }[];
   photos: {
     url: string;
@@ -82,6 +84,7 @@ const informations: Informations = {
       details:
         'I create this facebook clone by using React, React Hooks, Typescript, React Context for state management. Jest for testing . I use Material UI for the styling but use custom JSS for it. For Backend I use firebase and its google authentication functionality',
       link: 'https://izsk-fb.netlify.app',
+      demoLink: 'https://youtu.be/VsJv-wcUvj4',
     },
     {
       nameOfOrganization: 'React Portfolio — Personal',
@@ -90,6 +93,7 @@ const informations: Informations = {
       details:
         'I create a portfolio by using React, React Hooks, Typescript, Yup for validation,React-MapGl, Axios and React-Query for api call. Jest for testing and some animation tools. I use JSS with fully controlled style. Also use React-bootstrap for some animation and elements.',
       link: 'https://izsk.netlify.app',
+      demoLink: 'https://youtu.be/DimT6KavF18',
     },
     {
       nameOfOrganization: 'Vue Portfolio — Personal',
@@ -98,6 +102,7 @@ const informations: Informations = {
       details:
         'I create a  portfolio by using Vue, Vuex state management, Javascript, Yup for validation, axios for api call. I use CSS for styling for most of the part. Also use Vue-bootstrap for some animation and little styling.',
       link: 'https://izsk-vue.netlify.app',
+      demoLink: 'https://youtu.be/8jqJEeZBgX8',
     },
     {
       nameOfOrganization: 'Portfolio-Backend — Personal',
@@ -107,11 +112,19 @@ const informations: Informations = {
         ' For Back end I use NodeJS, with express, typescript, cors, yup for validation, nodemailer with mailgun. For Database I use MongoDb.',
     },
     {
+      nameOfOrganization: 'Twitter Clone',
+      startYear: '2020',
+      endYear: '2020',
+      details: 'I create this twitter clone by using Vue and Tailwind Css, it is fully responsive website.',
+      link: 'izsk-twitter-vue.netlify.app/',
+      demoLink: 'https://youtu.be/9gWrb9wniQ0',
+    },
+    {
       nameOfOrganization: 'Rock scissors paper game',
       startYear: '2020',
       endYear: '2020',
       details: 'Frontend build with React, typescript',
-      link: 'https://youtu.be/OsrPFr8Nxnw',
+      demoLink: 'https://youtu.be/OsrPFr8Nxnw',
     },
     {
       nameOfOrganization: 'Quiz application(FE)',
@@ -119,7 +132,7 @@ const informations: Informations = {
       endYear: '2020',
       details:
         'I create this quiz application frontend by using React, Redux toolkit, Redux thunk, Typescript, Material-UI, axios, React-Router dom, React spring and Yup for validation.',
-      link: 'https://youtu.be/BVYRaqlpKCw',
+      demoLink: 'https://youtu.be/BVYRaqlpKCw',
     },
     {
       nameOfOrganization: 'Quiz application(BE)',
@@ -136,6 +149,7 @@ const informations: Informations = {
       details:
         'An application where we can track the activity of Covid-19 based on country, continent, province with several factors. Built on React,Typescript,React-redux, Axios, Redux-toolkit, Redux thunk, Material UI. For source code kindly check my github. Here is demo link for it : izsk-covid-tracker.netlify.app .',
       link: 'https://izsk-covid-tracker.netlify.app',
+      demoLink: 'https://youtu.be/r2oA0Kh3Koc',
     },
     {
       nameOfOrganization: 'CoronaVirus-tracker — Personal',
@@ -143,7 +157,7 @@ const informations: Informations = {
       endYear: '2020',
       details:
         'An application where we can track the activity of Covid-19 based on country, continent, province with several factors and graphs. Built on React native,Typescript,React-native Element, Axios, Redux-toolkit. For source code kindly check my github.',
-      link: 'https://youtu.be/e_fFipPN9Ic',
+      demoLink: 'https://youtu.be/e_fFipPN9Ic',
     },
     {
       nameOfOrganization: 'Meal Delivery App, Montreal — Co-member(DecodeMtl)',
@@ -151,7 +165,7 @@ const informations: Informations = {
       endYear: 'May, 2019',
       details:
         'Marketplace where customers can order food and sellers can manage their items. Built in 10 days with a team of 4, this is a full stack application built with React, Redux, Express & MongoDB, where I tackled most of the front-end, including all the major views, animations, and state management. For source code kindly check my github.',
-      link: 'https://youtu.be/CKuMCXpg-3Q',
+      demoLink: 'https://youtu.be/CKuMCXpg-3Q',
     },
     {
       nameOfOrganization: 'Fusion BPO Services, Montreal  — Technical support representative',
