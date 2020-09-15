@@ -78,6 +78,27 @@ const informations: Informations = {
         'My job is to provide assistance to my team where we work on Mobile applications for iOS and android. Also rebuilding the existing product(www.guiker.com) and its functionality The tools we are using Expo, Typescript, Jest, React Native, React, Material UI, JSS, Axios Etc.',
     },
     {
+      nameOfOrganization: 'desMoments-ecommerce (Freelancing)',
+      startYear: 'Sept, 2020',
+      endYear: 'Ongoing',
+      details:
+        'Working on a freelancing project on Frontend. Building the project from scratch using React , Typescript and Redux toolkit for state management initially.',
+    },
+    {
+      nameOfOrganization: 'H2-BE (Freelancing)',
+      startYear: 'Sept, 2020',
+      endYear: 'Ongoing',
+      details:
+        'Working on a freelancing project as a Full stack web developer. Building the BE project from scratch using Node, Express, Typescript and for database using MongoDB initially.',
+    },
+    {
+      nameOfOrganization: 'H2-FE (Freelancing)',
+      startYear: 'Sept, 2020',
+      endYear: 'Ongoing',
+      details:
+        'Working on a freelancing project as a Full stack web developer. Building the FE project from scratch using React , Typescript and Redux toolkit for state management initially.',
+    },
+    {
       nameOfOrganization: 'Facebook Clone (Desktop View)',
       startYear: '2020',
       endYear: '2020',
