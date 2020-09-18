@@ -56,15 +56,15 @@ const informations: Informations = {
     },
     {
       nameOfOrganization: 'Concordia University',
-      startYear: '2016',
-      endYear: '2018',
+      startYear: 'Sept, 2016',
+      endYear: 'Dec, 2018',
       details:
         "I have completed my Master's of Engineering from Concordia University in Electrical and Computer Engineering. Where I gathered information about how computer hardware work in cpu level, model driven architecture, signal processing, digital communication and so on.",
     },
     {
       nameOfOrganization: 'Narula Institute of Technology(India)',
-      startYear: '2011',
-      endYear: '2015',
+      startYear: 'Aug, 2011',
+      endYear: 'May, 2015',
       details:
         "I have completed my Bachelor's of Technology in Electronics and Communication Engineering, learned about analogue signal,digital signal, basics of solid states, wireless communication, digital communication and so on.",
     },
@@ -99,18 +99,9 @@ const informations: Informations = {
         'Working on a freelancing project as a Full stack web developer. Building the FE project from scratch using React , Typescript and Redux toolkit for state management initially.',
     },
     {
-      nameOfOrganization: 'Facebook Clone (Desktop View)',
-      startYear: '2020',
-      endYear: '2020',
-      details:
-        'I create this facebook clone by using React, React Hooks, Typescript, React Context for state management. Jest for testing . I use Material UI for the styling but use custom JSS for it. For Backend I use firebase and its google authentication functionality',
-      link: 'https://izsk-fb.netlify.app',
-      demoLink: 'https://youtu.be/VsJv-wcUvj4',
-    },
-    {
       nameOfOrganization: 'React Portfolio — Personal',
-      startYear: '2020',
-      endYear: '2020',
+      startYear: 'July, 2020',
+      endYear: 'July, 2020',
       details:
         'I create a portfolio by using React, React Hooks, Typescript, Yup for validation,React-MapGl, Axios and React-Query for api call. Jest for testing and some animation tools. I use JSS with fully controlled style. Also use React-bootstrap for some animation and elements.',
       link: 'https://izsk.netlify.app',
@@ -118,8 +109,8 @@ const informations: Informations = {
     },
     {
       nameOfOrganization: 'Vue Portfolio — Personal',
-      startYear: '2020',
-      endYear: '2020',
+      startYear: 'July, 2020',
+      endYear: 'July, 2020',
       details:
         'I create a  portfolio by using Vue, Vuex state management, Javascript, Yup for validation, axios for api call. I use CSS for styling for most of the part. Also use Vue-bootstrap for some animation and little styling.',
       link: 'https://izsk-vue.netlify.app',
@@ -127,46 +118,64 @@ const informations: Informations = {
     },
     {
       nameOfOrganization: 'Portfolio-Backend — Personal',
-      startYear: '2020',
+      startYear: 'July, 2020',
       endYear: '2020',
       details:
         ' For Back end I use NodeJS, with express, typescript, cors, yup for validation, nodemailer with mailgun. For Database I use MongoDb.',
     },
     {
+      nameOfOrganization: 'Facebook Clone (Desktop View)',
+      startYear: 'Sept, 2020',
+      endYear: 'Sept, 2020',
+      details:
+        'I create this facebook clone by using React, React Hooks, Typescript, React Context for state management. Jest for testing . I use Material UI for the styling but use custom JSS for it. For Backend I use firebase and its google authentication functionality',
+      link: 'https://izsk-fb.netlify.app',
+      demoLink: 'https://youtu.be/VsJv-wcUvj4',
+    },
+    {
       nameOfOrganization: 'Twitter Clone',
-      startYear: '2020',
-      endYear: '2020',
+      startYear: 'Sept, 2020',
+      endYear: 'Sept, 2020',
       details: 'I create this twitter clone by using Vue and Tailwind Css, it is fully responsive website.',
       link: 'izsk-twitter-vue.netlify.app/',
       demoLink: 'https://youtu.be/9gWrb9wniQ0',
     },
     {
+      nameOfOrganization: 'Airbnb Clone (Desktop View)',
+      startYear: 'Sept, 2020',
+      endYear: 'Sept, 2020',
+      details:
+        'I create this facebook clone by using React, React Hooks, Typescript. Jest for testing . I use Material UI for the styling but use custom JSS for it. To deploy I am using firebase hosting service.',
+      link: 'https://airbnb-clone-496ef.web.app',
+      demoLink: 'https://youtu.be/pHR-ZRNKZfs',
+    },
+    {
       nameOfOrganization: 'Rock scissors paper game',
-      startYear: '2020',
-      endYear: '2020',
+      startYear: 'Aug, 2020',
+      endYear: 'Aug, 2020',
       details: 'Frontend build with React, typescript',
       demoLink: 'https://youtu.be/OsrPFr8Nxnw',
     },
     {
       nameOfOrganization: 'Quiz application(FE)',
-      startYear: '2020',
-      endYear: '2020',
+      startYear: 'Aug, 2020',
+      endYear: 'Sept, 2020',
       details:
         'I create this quiz application frontend by using React, Redux toolkit, Redux thunk, Typescript, Material-UI, axios, React-Router dom, React spring and Yup for validation.',
       demoLink: 'https://youtu.be/BVYRaqlpKCw',
     },
     {
       nameOfOrganization: 'Quiz application(BE)',
-      startYear: '2020',
-      endYear: '2020',
+      startYear: 'Aug, 2020',
+      endYear: 'Sept, 2020',
       details:
         ' For Back end I use NodeJS, with express, typescript, cors, yup for validation, ByCrypt JS, CryptoJS, JWT, Nodemon. For Database I use MongoDb.',
       link: 'https://github.com/sk-izsk/izsk-quiz-be',
     },
     {
       nameOfOrganization: 'CoronaVirus-tracker-web — Personal',
-      startYear: '2020',
-      endYear: '2020',
+      startYear: 'Aug, 2020',
+      endYear: 'Aug, 2020',
       details:
         'An application where we can track the activity of Covid-19 based on country, continent, province with several factors. Built on React,Typescript,React-redux, Axios, Redux-toolkit, Redux thunk, Material UI. For source code kindly check my github. Here is demo link for it : izsk-covid-tracker.netlify.app .',
       link: 'https://izsk-covid-tracker.netlify.app',
@@ -174,8 +183,8 @@ const informations: Informations = {
     },
     {
       nameOfOrganization: 'CoronaVirus-tracker — Personal',
-      startYear: '2020',
-      endYear: '2020',
+      startYear: 'May, 2020',
+      endYear: 'May, 2020',
       details:
         'An application where we can track the activity of Covid-19 based on country, continent, province with several factors and graphs. Built on React native,Typescript,React-native Element, Axios, Redux-toolkit. For source code kindly check my github.',
       demoLink: 'https://youtu.be/e_fFipPN9Ic',
