@@ -146,7 +146,7 @@ const informations: Informations = {
       startYear: 'Sept, 2020',
       endYear: 'Sept, 2020',
       details: 'I create this twitter clone by using Vue and Tailwind Css, it is fully responsive website.',
-      link: 'izsk-twitter-vue.netlify.app/',
+      link: 'https://izsk-twitter-vue-clone.web.app',
       demoLink: 'https://youtu.be/9gWrb9wniQ0',
     },
     {
@@ -187,7 +187,7 @@ const informations: Informations = {
       endYear: 'Aug, 2020',
       details:
         'An application where we can track the activity of Covid-19 based on country, continent, province with several factors. Built on React,Typescript,React-redux, Axios, Redux-toolkit, Redux thunk, Material UI. For source code kindly check my github. Here is demo link for it : izsk-covid-tracker.netlify.app .',
-      link: 'https://izsk-covid-tracker.netlify.app',
+      link: 'https://izsk-corona-tracker-web.web.app',
       demoLink: 'https://youtu.be/r2oA0Kh3Koc',
     },
     {
