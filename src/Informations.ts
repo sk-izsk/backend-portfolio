@@ -133,6 +133,15 @@ const informations: Informations = {
       demoLink: 'https://youtu.be/VsJv-wcUvj4',
     },
     {
+      nameOfOrganization: 'Hulu Clone (Desktop View)',
+      startYear: 'Sept, 2020',
+      endYear: 'Sept, 2020',
+      details:
+        'I create this facebook clone by using React, React Hooks, Typescript. Jest for testing and React-Flipkit for little animation . I use React JSS for the styling. For Backend I use netlify to deploy.',
+      link: 'https://izsk-hulu-clone.netlify.app',
+      demoLink: 'https://youtu.be/HBGsL5Mv8U4',
+    },
+    {
       nameOfOrganization: 'Twitter Clone',
       startYear: 'Sept, 2020',
       endYear: 'Sept, 2020',
