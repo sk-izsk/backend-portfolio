@@ -50,6 +50,7 @@ The Backend of this portfolio build mainly on NodeJS along with some other impor
 - [Prettier](https://prettier.io)
 - [Husky](https://github.com/typicode/husky)
 - [Heroku(deploy)](https://www.heroku.com)
+- [Cache](https://github.com/evanshortiss/expeditious)
 
 #### Database
 

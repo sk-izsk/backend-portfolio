@@ -5,6 +5,7 @@ import { graphqlHTTP } from 'express-graphql';
 import http from 'http';
 import mongoose from 'mongoose';
 import socketIo from 'socket.io';
+import { cache } from './cache';
 import { graphqlSchema } from './graphql';
 import { getRouter, postRouter, updateRouter } from './routes';
 import { callMongoDB } from './routes/get';
@@ -40,6 +41,8 @@ app.use(
 );
 
 app.use('/', getRouter, postRouter, updateRouter);
+
+app.use(cache);
 
 mongoose.connect(
   process.env.MONGO_DB_TOKEN as string,
