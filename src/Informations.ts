@@ -75,7 +75,7 @@ const informations: Informations = {
       startYear: 'July, 2019',
       endYear: 'June, 2020',
       details:
-        'My job is to provide assistance to my team where we work on Mobile applications for iOS and android. Also rebuilding the existing product(www.guiker.com) and its functionality The tools we are using Expo, Typescript, Jest, React Native, React, Material UI, JSS, Axios Etc.',
+        'My job was to provide assistance to my team where we worked on Mobile applications for iOS and android. Also rebuilding the existing product(www.guiker.com) and its functionality The tools we used Expo, Typescript, Jest, React Native, React, Redux, Material UI, JSS, Axios Etc.',
     },
     {
       nameOfOrganization: 'desMoments-ecommerce (Freelancing)',
@@ -292,6 +292,8 @@ const informations: Informations = {
     { name: 'Jest', progress: 60, backgroundColor: '#BF0A30', technology: 'MISC' },
     { name: 'Photography', progress: 70, backgroundColor: '#8B88B1', technology: 'MISC' },
     { name: 'SocketIo', progress: 65, backgroundColor: '#0D0D0D', technology: 'MISC' },
+    { name: 'Mocha', progress: 60, backgroundColor: '#8d6748', technology: 'MISC' },
+    { name: 'Chai', progress: 60, backgroundColor: '#a40802', technology: 'MISC' },
   ],
   myOffers: {
     frontEnd: {
