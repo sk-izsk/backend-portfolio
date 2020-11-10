@@ -15,10 +15,12 @@
   },
   "husky": {
     "hooks": {
-      "pre-push":"yarn prettier:fix"
+      "pre-push": "yarn prettier:fix"
     }
   },
   "dependencies": {
+    "@types/component-emitter": "^1.2.10",
+    "@types/cookie": "^0.4.0",
     "@types/cors": "^2.8.8",
     "@types/express": "^4.17.8",
     "@types/mongoose": "^5.7.37",
