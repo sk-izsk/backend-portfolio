@@ -42,9 +42,9 @@ export interface Informations {
 const informations: Informations = {
   avatar: {
     avatarOne:
-      'https://lh3.googleusercontent.com/pw/ACtC-3epfH7nv1M0gjlxBPvjEuzVhub4UxRHhjAQXJoj32Q9-N6q6b0m8GX49RkVZCaDcXk4CjofoCgH-AabzYJ_cs8oSET1qfdHKtj98MKtx1v4dpndoBmvskb6Mlb6-fravD4EDkvQggGuFv8-_ccNRtcgFA=w912-h861-no',
+      'https://lh3.googleusercontent.com/pw/ACtC-3dyAoDXmZWoS7_4qXqedUtqe_QRgJsR7QM6R9Q2IrXp38AcwGO4FrrTxQp9BHobGNmI653DnFa2Qc6q2yITPiPLq8QY_OjqsPmQtP3_RsImL9lc0cI4xyjR0MDpAEexhKbRMPcmfi67z6ZvW_ygCf4v6w=w839-h703-no',
     avatarTwo:
-      'https://lh3.googleusercontent.com/pw/ACtC-3fkT2wC_oB8Y4Fo48qOW6acvyLmAhr7NoFlLzb1Vnh-5qY_FDc_1ktlCP42JrwK5_TpT6PyAJZ18v63iAk-hIGQ6xnQEDw1agvzeGw_U8j-RN6ipnl6Z-1bHyfdL8jbLAXmXPJRNaGN1Qi6oq0k-6ntEQ=w800-h741-no',
+      'https://lh3.googleusercontent.com/pw/ACtC-3epfH7nv1M0gjlxBPvjEuzVhub4UxRHhjAQXJoj32Q9-N6q6b0m8GX49RkVZCaDcXk4CjofoCgH-AabzYJ_cs8oSET1qfdHKtj98MKtx1v4dpndoBmvskb6Mlb6-fravD4EDkvQggGuFv8-_ccNRtcgFA=w912-h861-no',
   },
   educationInformations: [
     {
@@ -71,6 +71,21 @@ const informations: Informations = {
   ],
   experienceInformations: [
     {
+      nameOfOrganization: 'SwiftCTRL, Montreal  -  Software Engineer',
+      startYear: 'Nov, 2020',
+      endYear: 'Ongoing',
+      details:
+        'I am working in a team that primarily deals with frontend technologies, such as React, Typescript, React i18n localization Etc.',
+    },
+    {
+      nameOfOrganization: 'Hatchways, Toronto  —  FullStack Developer(Co-Op)',
+      startYear: 'Oct, 2020',
+      endYear: 'Nov, 2020',
+      details:
+        'I was working in a team of 4 people as a full stack developer. Where mainly focused on React, Material ui in the frontend and Express, Node, MongoDB, Cloudinary Image uploader  and JWT authentication in Backend. My main object was to enhance my backend skill to a professional level.',
+      link: 'https://github.com/sk-izsk/team-pumpkin',
+    },
+    {
       nameOfOrganization: 'Guiker Inc, Montreal  —  Software Developer',
       startYear: 'July, 2019',
       endYear: 'June, 2020',
@@ -84,20 +99,20 @@ const informations: Informations = {
       details:
         'Working on a freelancing project on Frontend. Building the project from scratch using React , Typescript and Redux toolkit for state management initially.',
     },
-    {
-      nameOfOrganization: 'H2-BE (Freelancing)',
-      startYear: 'Sept, 2020',
-      endYear: 'Ongoing',
-      details:
-        'Working on a freelancing project as a Full stack web developer. Building the BE project from scratch using Node, Express, Typescript and for database using MongoDB initially.',
-    },
-    {
-      nameOfOrganization: 'H2-FE (Freelancing)',
-      startYear: 'Sept, 2020',
-      endYear: 'Ongoing',
-      details:
-        'Working on a freelancing project as a Full stack web developer. Building the FE project from scratch using React , Typescript and Redux toolkit for state management initially.',
-    },
+    // {
+    //   nameOfOrganization: 'H2-BE (Freelancing)',
+    //   startYear: 'Sept, 2020',
+    //   endYear: 'Ongoing',
+    //   details:
+    //     'Working on a freelancing project as a Full stack web developer. Building the BE project from scratch using Node, Express, Typescript and for database using MongoDB initially.',
+    // },
+    // {
+    //   nameOfOrganization: 'H2-FE (Freelancing)',
+    //   startYear: 'Sept, 2020',
+    //   endYear: 'Ongoing',
+    //   details:
+    //     'Working on a freelancing project as a Full stack web developer. Building the FE project from scratch using React , Typescript and Redux toolkit for state management initially.',
+    // },
     {
       nameOfOrganization: 'React Portfolio — Personal',
       startYear: 'July, 2020',

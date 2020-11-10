@@ -66,7 +66,7 @@ app.use(
 );
 
 const server: http.Server = http.createServer(app);
-
+//@ts-ignore
 const io: socketIo.Server = socketIo(server);
 
 io.on('connect', async (socket: socketIo.Socket) => {
