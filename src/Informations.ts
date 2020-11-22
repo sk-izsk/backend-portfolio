@@ -309,6 +309,8 @@ const informations: Informations = {
     { name: 'SocketIo', progress: 65, backgroundColor: '#0D0D0D', technology: 'MISC' },
     { name: 'Mocha', progress: 60, backgroundColor: '#8d6748', technology: 'MISC' },
     { name: 'Chai', progress: 60, backgroundColor: '#a40802', technology: 'MISC' },
+    { name: 'NPM Packages', progress: 60, backgroundColor: '#C53635', technology: 'MISC' },
+    { name: 'Storybook', progress: 60, backgroundColor: '#FF4785', technology: 'FRONTEND' },
   ],
   myOffers: {
     frontEnd: {
