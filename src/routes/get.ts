@@ -7,6 +7,7 @@ const callMongoDB: (
 ) => Promise<void | express.Response<any> | Document[]> = async (res?: Response) => {
   try {
     const posts = await InformationMongooseModelPost.find();
+
     return res ? res.json(posts) : posts;
   } catch (err) {
     return res ? res.json(err) : console.warn(err);

@@ -1,5 +1,4 @@
 import express, { Request, Response, Router } from 'express';
-import { Shape } from 'yup';
 import { sendMail } from '../mail';
 import { EmailMongooseModelPost, InformationMongooseModelPost } from '../models';
 import { formSchema, InputValues } from '../validation';
@@ -8,16 +7,7 @@ const postRouter: Router = express.Router();
 
 postRouter.post('/email', async (req: Request<any, any, InputValues, any>, res: Response<any>) => {
   try {
-    const validatedData: Shape<
-      InputValues | undefined,
-      {
-        name: string;
-        email: string;
-        subject: string;
-        message: string;
-        environment?: string;
-      }
-    > = await formSchema.validate(req.body);
+    const validatedData = await formSchema.validate(req.body);
     if (validatedData !== undefined) {
       const { email, message, name, subject, environment } = validatedData;
       const modifiedMessage: string = `${name}: ${message}`;

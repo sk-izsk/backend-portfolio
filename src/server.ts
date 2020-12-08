@@ -12,7 +12,7 @@ import { callMongoDB } from './routes/get';
 
 dotenv.config();
 
-const PORT: number | string = process.env.PORT || 5000;
+const PORT: number | string = process.env.PORT || 5000; // ?
 
 const app: express.Application = express();
 
@@ -52,7 +52,7 @@ mongoose.connect(
   },
 
   (err) => {
-    console.log('connected to db');
+    console.log('connected to db'); // ?
     console.log('this is mongo error', err);
   },
 );
