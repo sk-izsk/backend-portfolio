@@ -39,7 +39,7 @@
     "global": "^4.4.0",
     "graphql": "^15.4.0",
     "husky": "^4.3.5",
-    "mongoose": "^5.11.7",
+    "mongoose": "5.10.15",
     "nodemailer": "^6.4.16",
     "nodemailer-mailgun-transport": "^2.0.2",
     "nodemon": "^2.0.6",
