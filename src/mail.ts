@@ -19,20 +19,6 @@ const auth: {
 
 const transporter: Mail = nodemailer.createTransport(mailGun(auth));
 
-const detailsOfProcess: {
-  environment: string | undefined;
-  apiToken: string | undefined;
-  apiDomain: string | undefined;
-  mongoDbToken: string | undefined;
-} = {
-  environment: process.env.NODE_ENV,
-  apiToken: process.env.API_TOKEN,
-  apiDomain: process.env.DOMAIN,
-  mongoDbToken: process.env.MONGO_DB_TOKEN,
-};
-
-console.log(detailsOfProcess);
-
 const sendMail: (email: string, subject: string, text: string) => void = (
   email: string,
   subject: string,
