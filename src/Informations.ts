@@ -312,6 +312,7 @@ const informations: Informations = {
     { name: 'NPM Packages', progress: 60, backgroundColor: '#C53635', technology: 'MISC' },
     { name: 'Storybook', progress: 60, backgroundColor: '#FF4785', technology: 'FRONTEND' },
     { name: 'Cypress', progress: 75, backgroundColor: '#192634', technology: 'MISC' },
+    { name: 'NextJS', progress: 75, backgroundColor: '#000000', technology: 'FRONTEND' },
   ],
   myOffers: {
     frontEnd: {
