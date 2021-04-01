@@ -27,6 +27,7 @@ const allowedOrigins: string[] = [
   'http://localhost:8080',
   'https://izsk-vue.netlify.app',
   'https://izsk-next.vercel.app',
+  'https://izsk.vercel.app',
 ];
 app.use(
   cors({
