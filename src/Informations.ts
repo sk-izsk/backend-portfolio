@@ -78,6 +78,14 @@ const informations: Informations = {
         'I am working in a team that primarily deals with frontend technologies, such as React, Typescript, React i18n localization Etc.',
     },
     {
+      nameOfOrganization: 'NEXT Portfolio  -  Personal',
+      startYear: 'March, 2021',
+      endYear: 'March, 2021',
+      details:
+        'I create a portfolio by using NEXT, React, React Hooks, Typescript, Yup for validation, Axios for api call.  I use tailwind css for styling.',
+      link: 'https://izsk.vercel.app',
+    },
+    {
       nameOfOrganization: 'Hatchways, Toronto  —  FullStack Developer(Co-Op)',
       startYear: 'Oct, 2020',
       endYear: 'Nov, 2020',
@@ -312,7 +320,7 @@ const informations: Informations = {
     { name: 'NPM Packages', progress: 60, backgroundColor: '#C53635', technology: 'MISC' },
     { name: 'Storybook', progress: 60, backgroundColor: '#FF4785', technology: 'FRONTEND' },
     { name: 'Cypress', progress: 75, backgroundColor: '#192634', technology: 'MISC' },
-    { name: 'NextJS', progress: 75, backgroundColor: '#000000', technology: 'FRONTEND' },
+    { name: 'NEXT-JS', progress: 80, backgroundColor: '#000000', technology: 'FRONTEND' },
   ],
   myOffers: {
     frontEnd: {
