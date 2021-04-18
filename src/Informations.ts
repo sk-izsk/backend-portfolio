@@ -84,6 +84,7 @@ const informations: Informations = {
       details:
         'I create a portfolio by using NEXT, React, React Hooks, Typescript, Yup for validation, Axios for api call.  I use tailwind css for styling.',
       link: 'https://izsk.vercel.app',
+      demoLink: 'https://youtu.be/nt4rB9gwIHg',
     },
     {
       nameOfOrganization: 'Hatchways, Toronto  —  FullStack Developer(Co-Op)',
