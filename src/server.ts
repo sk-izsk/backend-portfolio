@@ -49,11 +49,11 @@ app.use(cache);
 mongoose.connect(
   process.env.MONGO_DB_TOKEN as string,
   {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
+    // useNewUrlParser: true,
+    // useUnifiedTopology: true,
   },
 
-  (err) => {
+  (err: any) => {
     console.log('connected to db'); // ?
     console.log('this is mongo error', err);
   },

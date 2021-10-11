@@ -9,6 +9,6 @@ const EmailPostSchema: mongoose.Schema<InputValues> = new mongoose.Schema({
   environment: String,
 });
 
-const EmailMongooseModelPost: mongoose.Model<mongoose.Document, {}> = mongoose.model('emails', EmailPostSchema);
+const EmailMongooseModelPost: mongoose.Model<InputValues, {}, {}, {}> = mongoose.model('emails', EmailPostSchema);
 
 export { EmailMongooseModelPost };

@@ -47,7 +47,7 @@ const InformationPostSchema: mongoose.Schema<Informations> = new mongoose.Schema
   },
 });
 
-const InformationMongooseModelPost: mongoose.Model<mongoose.Document, {}> = mongoose.model(
+const InformationMongooseModelPost: mongoose.Model<Informations, {}, {}, {}> = mongoose.model(
   'informations',
   InformationPostSchema,
 );
